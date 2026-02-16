@@ -1,0 +1,6 @@
+project_name     = "YOUR_GCP_PROJECT_ID"
+bucket_name      = "your-unique-bucket-name-2026"
+region           = "us-central1"
+storage_class    = "STANDARD"
+dataset_name     = "financial_data"
+credentials_file = "../gcp_credentials.json"

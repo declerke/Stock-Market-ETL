@@ -1,0 +1,9 @@
+prefect>=2.14.21
+prefect-gcp>=0.5.4
+simfin>=1.0.1
+pandas<2.0.0
+pyarrow
+google-cloud-storage
+google-cloud-bigquery
+python-dotenv
+pyspark==3.5.0

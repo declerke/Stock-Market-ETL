@@ -1,0 +1,6 @@
+sim-fin-api-key=YOUR_SIMFIN_API_KEY_HERE
+project-name=YOUR_GCP_PROJECT_ID
+bucket-name=your-unique-bucket-name-2026
+region=us-central1
+storage-class=STANDARD
+dataset-name=financial_data

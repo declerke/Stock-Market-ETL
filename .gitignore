@@ -1,0 +1,61 @@
+# --- Project Specific Exclusions ---
+# Large data folders (from simfin_data tree)
+simfin_data/
+raw_data/
+transformed_data/
+data_temp/
+simfin_data/download/
+simfin_data/cache/
+
+# --- Python ---
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- Environment & Credentials (CRITICAL) ---
+.pyenv
+.env
+gcp_credentials.json
+*.json_key
+.secret*
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars
+
+# --- Prefect & Orchestration ---
+.prefect/
+*.log
+
+# --- Spark & Database ---
+spark-warehouse/
+metastore_db/
+derby.log
+
+# --- IDEs & OS ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.ipynb_checkpoints/
+
+# --- Temporary/Debug Scripts & Logs ---
+test.py
+check_results.py
+check_comparison.py
+dirlist.txt
+projectsummary.md
